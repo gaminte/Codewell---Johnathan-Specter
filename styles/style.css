@@ -1,0 +1,498 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500&family=Prata&display=swap");
+@import url("https://unpkg.com/css.gg@2.0.0/icons/css/arrow-long-right.css");
+
+html {
+  background-color: #000;
+  color: #fff;
+  font-family: "Prata", serif;
+  overflow-x: hidden;
+}
+
+li {
+  list-style: none;
+  display: inline-block;
+}
+
+p {
+  font-family: "Inter", sans-serif;
+}
+
+button {
+  background-color: #fbe951;
+  padding: 15px 30px;
+  font-family: "Prata", sans-serif;
+  font-weight: 600;
+  border: none;
+}
+
+/* navbar */
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 143.5px;
+  margin: auto;
+}
+
+.nav_menu {
+  display: none;
+}
+
+nav h3 {
+  font-weight: 100;
+}
+
+.nav_pages li {
+  padding: 10px;
+  font-family: "Inter", sans-serif;
+  opacity: 0.6;
+}
+
+/* section_1 */
+
+.section_1 {
+  width: 50%;
+  padding-top: 35px;
+  width: 45%;
+  padding-left: 143.5px;
+}
+
+.section_1 h1 {
+  font-size: 3.4rem;
+  margin-bottom: 0;
+  font-weight: 200;
+}
+
+.section_1 p {
+  font-size: 1.2rem;
+  width: 95%;
+  opacity: 0.6;
+  line-height: 1.6;
+}
+
+/* brands */
+
+.brands {
+  width: 80%;
+  margin: auto;
+}
+
+.brands ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 45px 0;
+}
+
+/* section_2 */
+
+.section_2 {
+  display: flex;
+  padding: 10px 143.5px;
+  gap: 80px;
+}
+
+.section_2 h1 {
+  margin-bottom: 0;
+  font-weight: 100;
+}
+
+.section_2 p {
+  font-size: 1.1rem;
+  opacity: 0.6;
+  line-height: 1.6;
+}
+
+.section_2 i {
+  width: 30px;
+  margin-top: 21.4px;
+}
+
+.section_2_spense,
+.section_2_yelp {
+  width: 600px;
+}
+
+.section_2_spense img,
+.section_2_yelp img {
+  width: 100%;
+}
+
+.section_2_spense_title,
+.section_2_yelp_title {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+/* section_3 */
+
+.section_3 {
+  margin: 50px 0;
+  background-color: #2f3039;
+  padding: 50px 143.5px;
+  display: flex;
+  align-items: center;
+  gap: 80px;
+}
+.section_3 p {
+  font-size: 1.2rem;
+  opacity: 0.6;
+  line-height: 1.6;
+}
+
+.section_3 h1 {
+  font-weight: 200;
+  font-size: 2.2rem;
+}
+
+.section_3_part_1,
+.section_3_part_2 {
+  width: 600px;
+}
+
+/* section_4 */
+
+.section_4 {
+  padding: 10px 143.5px;
+  width: 40%;
+}
+
+.section_4 h1 {
+  margin: 0;
+  font-weight: 100;
+  font-size: 2.2rem;
+}
+
+.section_4 p {
+  font-size: 1.1rem;
+  width: 75%;
+  opacity: 0.6;
+  line-height: 1.6;
+}
+
+/* footer */
+
+footer {
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 143.5px;
+  background-color: #2f3039;
+}
+
+footer h3 {
+  font-weight: 100;
+}
+
+footer li {
+  padding: 0 5px;
+}
+
+@media (max-width: 1024px) {
+  html {
+    overflow-x: hidden;
+  }
+  /* navbar */
+  nav {
+    padding: 10px 80px;
+  }
+
+  nav button,
+  .nav_pages {
+    display: none;
+  }
+
+  .nav_menu {
+    display: block;
+  }
+
+  /* section_1 */
+
+  .section_1 {
+    padding: 0 80px;
+    width: 84%;
+    margin: auto;
+  }
+
+  .section_1 h1 {
+    font-size: 4.2rem;
+  }
+
+  .section_1 p {
+    font-size: 1.4rem;
+  }
+
+  /* brands */
+
+  .brands {
+    padding: 0 80px;
+    width: 70%;
+    margin: auto;
+  }
+
+  .brands ul {
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+
+  .brands img {
+    padding: 10px 40px 10px 0px;
+  }
+
+  .walmart_img,
+  .jp_img {
+    width: 160px;
+  }
+
+  .visa_img,
+  .tinder_img {
+    width: 110px;
+  }
+
+  .tinder_img,
+  .verizon_img {
+    width: 150px;
+  }
+
+  .samsung_img {
+    height: 30px;
+  }
+
+  /* section_2 */
+
+  .section_2 {
+    display: flex;
+    flex-direction: column;
+    padding: 10px 80px;
+    gap: 80px;
+  }
+
+  .section_2_spense,
+  .section_2_yelp {
+    width: 100%;
+  }
+
+  .section_2 p {
+    font-size: 1.3rem;
+  }
+
+  .section_2 h1 {
+    font-size: 3rem;
+  }
+
+  .section_2 i {
+    width: 40px;
+    margin-top: 32px;
+  }
+
+  /* section_3 */
+
+  .section_3 {
+    padding: 50px 80px;
+    flex-direction: column;
+    gap: 60px;
+  }
+
+  .section_3_part_1,
+  .section_3_part_2 {
+    width: 100%;
+  }
+
+  .section_3 h1 {
+    font-size: 3.2rem;
+  }
+
+  .section_3 p {
+    font-size: 1.4rem;
+  }
+
+  /* section_4 */
+
+  .section_4 {
+    padding: 10px 80px;
+    width: 80%;
+  }
+
+  .section_4 h1 {
+    font-size: 2.9rem;
+  }
+
+  .section_4 p {
+    font-size: 1.4rem;
+  }
+
+  .section_4 button {
+    width: 180px;
+    font-size: 1.2rem;
+  }
+
+  /* footer */
+
+  footer {
+    padding: 0 80px;
+  }
+}
+
+@media (max-width: 768px) {
+  html {
+    overflow-x: hidden;
+  }
+  /* navbar */
+  nav {
+    padding: 10px 40px;
+    width: 90%;
+  }
+
+  nav h3 {
+    font-size: 1.3rem;
+  }
+
+  nav button,
+  .nav_pages {
+    display: none;
+  }
+
+  .nav_menu {
+    display: block;
+    width: 35px;
+  }
+
+  /* section_1 */
+
+  .section_1 {
+    padding: 0 40px;
+    width: 90%;
+    margin: auto;
+  }
+
+  .section_1 h1 {
+    font-size: 2rem;
+  }
+
+  .section_1 p {
+    font-size: 1rem;
+    width: 98%;
+  }
+
+  /* brands */
+
+  .brands {
+    padding: 0 40px;
+    width: 90%;
+    margin: auto;
+  }
+
+  .brands ul {
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+
+  .brands img {
+    padding: 10px 20px 10px 0px;
+  }
+
+  .walmart_img,
+  .jp_img {
+    width: 120px;
+  }
+
+  .visa_img,
+  .tinder_img {
+    width: 70px;
+  }
+
+  .tinder_img,
+  .verizon_img {
+    width: 110px;
+  }
+
+  .samsung_img {
+    height: 20px;
+  }
+
+  /* section_2 */
+
+  .section_2 {
+    display: flex;
+    flex-direction: column;
+    padding: 10px 40px;
+    gap: 80px;
+    width: 90%;
+  }
+
+  .section_2_spense,
+  .section_2_yelp {
+    width: 100%;
+  }
+
+  .section_2 p {
+    font-size: 1rem;
+    width: 90%;
+  }
+
+  .section_2 h1 {
+    font-size: 1.6rem;
+  }
+
+  .section_2 i {
+    width: 40px;
+    margin-top: 19.2px;
+  }
+
+  /* section_3 */
+
+  .section_3 {
+    padding: 50px 40px;
+    flex-direction: column;
+    gap: 40px;
+    width: 90%;
+  }
+
+  .section_3_part_1,
+  .section_3_part_2 {
+    width: 100%;
+  }
+
+  .section_3 h1 {
+    font-size: 1.8rem;
+  }
+
+  .section_3 p {
+    font-size: 1.1rem;
+  }
+
+  /* section_4 */
+
+  .section_4 {
+    padding: 10px 40px;
+    width: 90%;
+  }
+
+  .section_4 h1 {
+    font-size: 1.8rem;
+  }
+
+  .section_4 p {
+    font-size: 1rem;
+    width: 90%;
+  }
+
+  .section_4 button {
+    width: 140px;
+    font-size: 0.8rem;
+  }
+
+  /* footer */
+
+  footer {
+    padding: 0 40px;
+    width: 90%;
+  }
+
+  footer h3 {
+    font-size: 1rem;
+  }
+}
